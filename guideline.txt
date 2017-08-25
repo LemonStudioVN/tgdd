@@ -1,0 +1,2 @@
+1. Integrate Social Authentication:
+    - Migration to generate a social_profiles table: bin/cake migrations migrate -p ADmad/SocialAuth
