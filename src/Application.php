@@ -19,6 +19,7 @@ use Cake\Error\Middleware\ErrorHandlerMiddleware;
 use Cake\Http\BaseApplication;
 use Cake\Routing\Middleware\AssetMiddleware;
 use Cake\Routing\Middleware\RoutingMiddleware;
+use ADmad\SocialAuth\Middleware\SocialAuthMiddleware;
 
 /**
  * Application setup class.
@@ -47,7 +48,7 @@ class Application extends BaseApplication
             // Add routing middleware.
             ->add(new RoutingMiddleware($this))
 
-            ->add(new \ADmad\SocialAuth\Middleware\SocialAuthMiddleware([
+            ->add(new SocialAuthMiddleware([
                 // Request method type use to initiate authentication.
                 'requestMethod' => 'POST',
                 // Login page URL. In case of auth failure user is redirected to login
