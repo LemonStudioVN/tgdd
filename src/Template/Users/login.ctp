@@ -21,4 +21,10 @@
             '?' => ['redirect' => $this->request->getQuery('redirect')]
         ]
     );
+
+    echo $this->Html->link(
+        'Login with FB 2',
+        ['controller' => 'Users', 'action' => 'facebookLogin', '?' => ['redirect' => $this->request->getQuery('redirect')]],
+        ['class' => 'button']
+    );
 ?>

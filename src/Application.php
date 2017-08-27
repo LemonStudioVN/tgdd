@@ -55,7 +55,7 @@ class Application extends BaseApplication
                 // page with "error" query string var.
                 'loginUrl' => '/users/login',
                 // URL string or array to redirect to after authentication.
-                'loginRedirect' => '/',
+                'loginRedirect' => '/users',
                 // Boolean indicating whether user identity should be returned as entity.
                 'userEntity' => false,
                 // User model.
@@ -75,8 +75,8 @@ class Application extends BaseApplication
                 'serviceConfig' => [
                     'provider' => [
                         'facebook' => [
-                            'applicationId' => '159413774613152',
-                            'applicationSecret' => 'df32d629a28da07346a3f83d26d94da2',
+                            'applicationId' => '113690232685262',
+                            'applicationSecret' => '82cbdc7c33f3a106452fa1fb89c5c698',
                             'scope' => [
                                 'email',
                                 'public_profile'

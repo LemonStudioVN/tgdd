@@ -218,3 +218,6 @@ if (Configure::read('debug')) {
 
 // Social Authentication plugin
 Plugin::load('ADmad/SocialAuth', ['bootstrap' => true, 'routes' => true]);
+
+// Load app_local config
+Configure::load('app_local', 'default');

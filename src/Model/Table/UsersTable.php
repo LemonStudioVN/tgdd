@@ -5,6 +5,8 @@ use Cake\ORM\Query;
 use Cake\ORM\RulesChecker;
 use Cake\ORM\Table;
 use Cake\Validation\Validator;
+use Cake\Datasource\EntityInterface;
+use Facebook\GraphNodes\GraphNodeFactory;
 
 /**
  * Users Model
@@ -86,7 +88,7 @@ class UsersTable extends Table
         return $rules;
     }
 
-    public function getUser(\Cake\Datasource\EntityInterface $profile) {
+    public function getUser(EntityInterface $profile) {
         // Make sure here that all the required fields are actually present
         if (empty($profile->email)) {
             throw new \RuntimeException('Could not find email in social profile.');
@@ -106,6 +108,36 @@ class UsersTable extends Table
     
         // Create new user account
         $user = $this->newEntity(['email' => $profile->email]);
+        $user = $this->save($user);
+    
+        if (!$user) {
+            throw new \RuntimeException('Unable to save new user');
+        }
+    
+        return $user;
+    }
+
+    public function authUser($profile)
+    {
+        $email = $profile->getProperty('email');
+        if (empty($email)) {
+            throw new \RuntimeException('Could not find email in social profile.');
+        }
+
+        $user = $this->find()
+            ->where(['email' => $email])
+            ->first();
+    
+        if ($user) {
+            return $user;
+        }
+    
+        // Create new user account
+        $user = $this->newEntity([
+            'email' => $email,
+            'username' => $profile->getProperty('name'),
+            'password' => time()
+            ]);
         $user = $this->save($user);
     
         if (!$user) {

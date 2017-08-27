@@ -16,6 +16,7 @@ namespace App\Controller;
 
 use Cake\Controller\Controller;
 use Cake\Event\Event;
+use Cake\Core\Configure;
 
 /**
  * Application Controller
@@ -52,6 +53,11 @@ class AppController extends Controller
         $this->loadComponent('Csrf');
 
         $this->loadComponent('Auth', [
+            'loginAction' => [
+                'prefix' => false,
+                'controller' => 'Users',
+                'action' => 'facebookLogin',
+            ],
             'loginRedirect' => [
                 'controller' => 'Users',
                 'action' => 'index'
@@ -62,6 +68,18 @@ class AppController extends Controller
                 'home'
             ]
         ]);
+
+        //Init Facebook PHP SDK
+        require_once ROOT . DS . 'vendor' .DS.'autoload.php';
+        $this->request->session()->start();
+        $this->fb = new \Facebook\Facebook([
+            'app_id' => Configure::read('Facebook.app_id'),
+            'app_secret' => Configure::read('Facebook.secret'),
+            'default_graph_version' => Configure::read('Facebook.default_graph_version'),
+        ]);
+
+        $this->fbHelper = $this->fb->getRedirectLoginHelper();
+        $this->permissions = ['email', 'public_profile'];
     }
 
     /**
@@ -85,5 +103,8 @@ class AppController extends Controller
     public function beforeFilter(Event $event)
     {
         $this->Auth->allow(['index', 'view', 'display']);
+        if ($this->request->getParam('prefix') == 'admin') {
+            $this->viewBuilder()->setLayout('defaultAdmin');
+        }
     }
 }
