@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "cb496ac9310d31118384c8440d5ff5c8",
     "content-hash": "b7c2b1fdb89f5fafde10658788de80a6",
     "packages": [
         {
@@ -40,7 +41,7 @@
                 "MIT"
             ],
             "description": "A CakePHP plugin which allows you to authenticate using social providers like Facebook/Google/Twitter etc.",
-            "time": "2017-07-14T11:23:02+00:00"
+            "time": "2017-07-14 11:23:02"
         },
         {
             "name": "aura/intl",
@@ -86,7 +87,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2017-01-20T05:00:11+00:00"
+            "time": "2017-01-20 05:00:11"
         },
         {
             "name": "cakephp/cakephp",
@@ -172,7 +173,7 @@
                 "rapid-development",
                 "validation"
             ],
-            "time": "2017-08-19T01:20:13+00:00"
+            "time": "2017-08-19 01:20:13"
         },
         {
             "name": "cakephp/chronos",
@@ -229,7 +230,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-04-27T01:27:49+00:00"
+            "time": "2017-04-27 01:27:49"
         },
         {
             "name": "cakephp/migrations",
@@ -281,7 +282,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2017-08-05T13:16:31+00:00"
+            "time": "2017-08-05 13:16:31"
         },
         {
             "name": "cakephp/plugin-installer",
@@ -322,7 +323,7 @@
                 }
             ],
             "description": "A composer installer for CakePHP 3.0+ plugins.",
-            "time": "2017-03-21T13:48:47+00:00"
+            "time": "2017-03-21 13:48:47"
         },
         {
             "name": "facebook/graph-sdk",
@@ -380,7 +381,7 @@
                 "facebook",
                 "sdk"
             ],
-            "time": "2017-08-16T17:28:07+00:00"
+            "time": "2017-08-16 17:28:07"
         },
         {
             "name": "josegonzalez/dotenv",
@@ -432,7 +433,7 @@
                 "dotenv",
                 "php"
             ],
-            "time": "2017-01-03T01:04:05+00:00"
+            "time": "2017-01-03 01:04:05"
         },
         {
             "name": "m1/env",
@@ -490,7 +491,7 @@
                 "parser",
                 "support"
             ],
-            "time": "2016-10-06T19:31:28+00:00"
+            "time": "2016-10-06 19:31:28"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -542,7 +543,7 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2017-03-29T13:59:30+00:00"
+            "time": "2017-03-29 13:59:30"
         },
         {
             "name": "psr/http-message",
@@ -592,7 +593,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06T14:39:51+00:00"
+            "time": "2016-08-06 14:39:51"
         },
         {
             "name": "psr/log",
@@ -639,7 +640,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2016-10-10 12:19:37"
         },
         {
             "name": "robmorgan/phinx",
@@ -705,7 +706,7 @@
                 "migrations",
                 "phinx"
             ],
-            "time": "2017-06-05T13:30:19+00:00"
+            "time": "2017-06-05 13:30:19"
         },
         {
             "name": "socialconnect/auth",
@@ -770,7 +771,7 @@
                 "twitter",
                 "vk"
             ],
-            "time": "2017-07-09T15:39:21+00:00"
+            "time": "2017-07-09 15:39:21"
         },
         {
             "name": "socialconnect/common",
@@ -818,7 +819,7 @@
                 }
             ],
             "description": "Common component",
-            "time": "2017-03-25T15:41:32+00:00"
+            "time": "2017-03-25 15:41:32"
         },
         {
             "name": "symfony/config",
@@ -880,7 +881,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-19T07:37:29+00:00"
+            "time": "2017-07-19 07:37:29"
         },
         {
             "name": "symfony/console",
@@ -949,7 +950,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-29T21:27:59+00:00"
+            "time": "2017-07-29 21:27:59"
         },
         {
             "name": "symfony/debug",
@@ -1005,7 +1006,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-28T15:27:31+00:00"
+            "time": "2017-07-28 15:27:31"
         },
         {
             "name": "symfony/filesystem",
@@ -1054,7 +1055,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-11T07:17:58+00:00"
+            "time": "2017-07-11 07:17:58"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1113,7 +1114,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14T15:44:48+00:00"
+            "time": "2017-06-14 15:44:48"
         },
         {
             "name": "symfony/yaml",
@@ -1168,7 +1169,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-23T12:43:26+00:00"
+            "time": "2017-07-23 12:43:26"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -1220,7 +1221,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-08-22T20:38:56+00:00"
+            "time": "2017-08-22 20:38:56"
         }
     ],
     "packages-dev": [
@@ -1269,7 +1270,7 @@
                 "bake",
                 "cakephp"
             ],
-            "time": "2017-08-19T02:47:18+00:00"
+            "time": "2017-08-19 02:47:18"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -1314,7 +1315,7 @@
                 "codesniffer",
                 "framework"
             ],
-            "time": "2017-07-28T01:42:31+00:00"
+            "time": "2017-07-28 01:42:31"
         },
         {
             "name": "cakephp/debug_kit",
@@ -1374,7 +1375,7 @@
                 "debug",
                 "kit"
             ],
-            "time": "2017-07-20T11:18:33+00:00"
+            "time": "2017-07-20 11:18:33"
         },
         {
             "name": "composer/ca-bundle",
@@ -1433,7 +1434,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-03-06T11:59:08+00:00"
+            "time": "2017-03-06 11:59:08"
         },
         {
             "name": "composer/composer",
@@ -1510,7 +1511,7 @@
                 "dependency",
                 "package"
             ],
-            "time": "2017-08-09T14:07:22+00:00"
+            "time": "2017-08-09 14:07:22"
         },
         {
             "name": "composer/semver",
@@ -1572,7 +1573,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30T16:08:34+00:00"
+            "time": "2016-08-30 16:08:34"
         },
         {
             "name": "composer/spdx-licenses",
@@ -1633,7 +1634,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2017-04-03T19:08:52+00:00"
+            "time": "2017-04-03 19:08:52"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1666,7 +1667,7 @@
                 "MIT"
             ],
             "description": "implementation of xdg base directory specification for php",
-            "time": "2014-10-24T07:27:01+00:00"
+            "time": "2014-10-24 07:27:01"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -1709,7 +1710,7 @@
                     "homepage": "http://www.acci.cz"
                 }
             ],
-            "time": "2014-04-08T15:00:19+00:00"
+            "time": "2014-04-08 15:00:19"
         },
         {
             "name": "jakub-onderka/php-console-highlighter",
@@ -1753,7 +1754,7 @@
                     "homepage": "http://www.acci.cz/"
                 }
             ],
-            "time": "2015-04-20T18:58:01+00:00"
+            "time": "2015-04-20 18:58:01"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1803,7 +1804,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12T16:20:24+00:00"
+            "time": "2014-01-12 16:20:24"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1870,7 +1871,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2017-05-16T21:06:09+00:00"
+            "time": "2017-05-16 21:06:09"
         },
         {
             "name": "nikic/php-parser",
@@ -1921,7 +1922,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-07-28T14:45:09+00:00"
+            "time": "2017-07-28 14:45:09"
         },
         {
             "name": "psy/psysh",
@@ -1994,7 +1995,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-07-29T19:30:02+00:00"
+            "time": "2017-07-29 19:30:02"
         },
         {
             "name": "seld/cli-prompt",
@@ -2042,7 +2043,7 @@
                 "input",
                 "prompt"
             ],
-            "time": "2017-03-18T11:32:45+00:00"
+            "time": "2017-03-18 11:32:45"
         },
         {
             "name": "seld/jsonlint",
@@ -2091,7 +2092,7 @@
                 "parser",
                 "validator"
             ],
-            "time": "2017-06-18T15:11:04+00:00"
+            "time": "2017-06-18 15:11:04"
         },
         {
             "name": "seld/phar-utils",
@@ -2135,7 +2136,7 @@
             "keywords": [
                 "phra"
             ],
-            "time": "2015-10-13T18:44:15+00:00"
+            "time": "2015-10-13 18:44:15"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2186,7 +2187,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-07-18T01:12:32+00:00"
+            "time": "2017-07-18 01:12:32"
         },
         {
             "name": "symfony/finder",
@@ -2235,7 +2236,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01T21:01:25+00:00"
+            "time": "2017-06-01 21:01:25"
         },
         {
             "name": "symfony/process",
@@ -2284,7 +2285,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-07-13T13:05:09+00:00"
+            "time": "2017-07-13 13:05:09"
         },
         {
             "name": "symfony/var-dumper",
@@ -2352,7 +2353,7 @@
                 "debug",
                 "dump"
             ],
-            "time": "2017-07-28T06:06:09+00:00"
+            "time": "2017-07-28 06:06:09"
         }
     ],
     "aliases": [],
