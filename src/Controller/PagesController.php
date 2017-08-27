@@ -57,7 +57,9 @@ class PagesController extends AppController
             $subpage = $path[1];
         }
         $this->set(compact('page', 'subpage'));
-        
+        $this->_setAdvertising();
+        $this->_setBanner();
+
         try {
             $this->render(implode('/', $path));
         } catch (MissingTemplateException $exception) {
@@ -66,7 +68,34 @@ class PagesController extends AppController
             }
             throw new NotFoundException();
         }
+    }
 
+    /**
+     * 
+     */
+    private function _setAdvertising(){
+        $ads[0]['alt'] = "top_left_banner";
+        $ads[0]['url'] = "banners/banner1.png";
+        
+        $ads[1]['alt'] = "top_right_banner";
+        $ads[1]['url'] = "banners/banner2.png";
+        
+        $ads[2]['alt'] = "bottom_banner";
+        $ads[2]['url'] = "banners/banner3.png";
 
+        $this->set(compact('ads'));
+    }
+
+    /**
+     * 
+     */
+    private function _setBanner(){
+        $banner['h2'] = "Chào mừng đến với";
+        $banner['span'] = "Lem Mobile";    
+        $banner['description'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eradum eiusmod tempor incididunt ut labore et dolore magna aliqua.";     
+        $banner['link_name'] = "Đến khu mua sắm";
+        $banner['h4'] = "Hi!";
+
+        $this->set(compact('banner'));
     }
 }

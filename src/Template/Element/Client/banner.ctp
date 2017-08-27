@@ -1,13 +1,18 @@
 <div id="banner-wrap">
     <section id="banner">
         <div class="main-promo">
-            <h2>Welcome to<br><span>Westeros</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eradum eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a href="women-shop.html" class="button secondary">Go to the Shop</a>
+            <h2><?= $banner['h2'] ?><br>
+                <span><?= $banner['span'] ?></span>
+            </h2>
+            <p><?= $banner['description'] ?></p>
+            <?= $this->Html->link($banner['link_name'],
+                ['controller'=>'Pages','action'=>'index'],[
+                'class'=>'button secondary'
+            ]) ?>
         </div>
         <div id="banner-monster">
             <div class="speech-bubble">
-                <h4>Hi!</h4>
+                <h4><?= $banner['h4'] ?></h4>
             </div>
             <div class="moustache-shadow"></div>
             <div class="moustache-monster">

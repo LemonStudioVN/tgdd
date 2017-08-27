@@ -1,15 +1,18 @@
 <div id="advertising-wrap">
     <section id="advertising">
         <div class="ad-box clearfix">
-            <a href="#">
-                <img src="img/banners/banner1.png" alt="banner1">
-            </a>
-            <a href="#">
-                <img src="img/banners/banner2.png" alt="banner2">
-            </a>
+            <?= $this->Html->image($ads[0]['url'],[
+                'alt' => $ads[0]['alt'],
+                'url' => '#'
+            ]) ?>
+            <?= $this->Html->image($ads[1]['url'],[
+                'alt' => $ads[1]['alt'],
+                'url' => '#'
+            ]) ?>
         </div>  
-        <a href="#">
-            <img src="img/banners/banner3.png" alt="banner3">
-        </a>
+        <?= $this->Html->image($ads[2]['url'],[
+            'alt' => $ads[2]['alt'],
+            'url' => '#'
+        ]) ?>
     </section>
 </div>
