@@ -7,8 +7,8 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?= $this->Html->charset() ?>
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <?= $this->Html->charset() ?>   
+    <?= $this->Html->meta('view',['name'=>'viewport','content'=>'width=device-width, minimum-scale=1.0, maximum-scale=1.0']) ?>
     <?= $this->Html->css('vendor/owl.carousel.css') ?>
     <?= $this->Html->css('vendor/magnific-popup.css') ?>
     <?= $this->Html->css('style.css') ?>
@@ -74,21 +74,22 @@
     <?= $this->Element('Client/svg') ?>
     <!-- /SVG FILE -->
 
-<!-- jQuery -->
-<script src="js/vendor/jquery-1.11.1.min.js"></script>
-<!-- XM Accordion -->
-<script src="js/vendor/jquery.xmaccordion.min.js"></script>
-<!-- Owl Carrousel -->
-<script src="js/vendor/owl.carousel.min.js"></script>
-<!-- Magnific Popup -->
-<script src="js/vendor/jquery.magnific-popup.min.js"></script>
-<!-- imgLiquid -->
-<script src="js/vendor/imgLiquid-min.js"></script>
-<!-- Header -->
-<script src="js/header.js"></script>
-<!-- Menu -->
-<script src="js/menu.js"></script>
-<!-- Home -->
-<script src="js/home.js"></script>
+    <!-- jQuery -->
+    <?= $this->Html->script('vendor/jquery-1.11.1.min.js') ?>
+    <!-- XM Accordion -->
+    <?= $this->Html->script('vendor/jquery.xmaccordion.min.js') ?>
+    <!-- Owl Carrousel -->
+    <?= $this->Html->script('vendor/owl.carousel.min.js') ?>
+    <!-- Magnific Popup -->
+    <?= $this->Html->script('vendor/jquery.magnific-popup.min.js') ?>
+    <!-- imgLiquid -->
+    <?= $this->Html->script('vendor/imgLiquid-min.js') ?>
+    <!-- Header -->
+    <?= $this->Html->script('header.js') ?>
+    <!-- Menu -->
+    <?= $this->Html->script('menu.js') ?>
+    <!-- Home -->
+    <?= $this->Html->script('home.js') ?>
+
 </body>
 </html>
