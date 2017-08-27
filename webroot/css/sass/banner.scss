@@ -1,5 +1,5 @@
 #banner-wrap {
-	background: url('../images/banner-bg.jpg') no-repeat center;
+	background: url('../img/banner-bg.jpg') no-repeat center;
 	background-size: cover;
 }
 
@@ -39,7 +39,7 @@
 	.speech-bubble {
 		width: 106px;
 		height: 135px;
-		background: url('../images/speech-bubble2.png') no-repeat center;
+		background: url('../img/speech-bubble2.png') no-repeat center;
 		position: absolute;
 		top: 45px;
 		right: 427px;
@@ -70,7 +70,7 @@
 	.moustache-shadow {
 		width: 228px;
 		height: 26px;
-		background: url('../images/monster-shadow.png') no-repeat center;
+		background: url('../img/monster-shadow.png') no-repeat center;
 		position: absolute;
 		right: 220px;
 		bottom: 45px;
@@ -101,7 +101,7 @@
 	    	height: 35px;
 	    	top: 258px;
 	    	right: 478px;
-	    	background-image: url('../images/star-small.png');
+	    	background-image: url('../img/star-small.png');
 	    	-webkit-animation: movestar .6s linear forwards, rotatestar 1s ease-in-out;
 	    			animation: movestar .6s linear forwards, rotatestar 1s ease-in-out;
 	    	animation-delay: .6s;
@@ -112,7 +112,7 @@
 	    	height: 55px;
 	    	top: 80px;
 	    	right: 180px;
-	    	background-image: url('../images/star-medium.png');   		    
+	    	background-image: url('../img/star-medium.png');   		    
 	    	-webkit-animation: movestar .8s linear forwards, rotatestar 1s ease-in-out;
 	    			animation: movestar .8s linear forwards, rotatestar 1s ease-in-out;
 	    	animation-delay: .6s;
@@ -123,7 +123,7 @@
 	    	height: 71px;
 	    	top: 240px;
 	    	right: 85px;
-	    	background-image: url('../images/star-large.png');
+	    	background-image: url('../img/star-large.png');
 	    	-webkit-animation: movestar .8s linear forwards, rotatestar 1s ease-in-out;
 	    			animation: movestar .8s linear forwards, rotatestar 1s ease-in-out;
 	    	animation-delay: .6s;
