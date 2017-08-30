@@ -93,7 +93,7 @@ class PagesController extends AppController
     private function _setBanner(){
         $banner['h2'] = "Chào mừng đến với";
         $banner['span'] = "Lem Mobile";    
-        $banner['description'] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eradum eiusmod tempor incididunt ut labore et dolore magna aliqua.";     
+        $banner['description'] = "Lort dolore magna aliqua.";     
         $banner['link_name'] = "Đến khu mua sắm";
         $banner['h4'] = "Hi!";
 
